@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-    <h1>Table by Innerside</h1>
-
-    <table class="table-content">
-        <tr>
-           <th>Company</th>
-           <th>Contact</th>
-           <th>Country</th>
-        </tr>
-        <tr>
-            <td>Alfred Futterkitse</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <tr>
-            <td>Centro Commercial Moctezuma</td>
-            <td>Francis Chang</td>
-            <td>Austria</td>
-        </tr>
-        <tr>
-            <td>Ernst Handel</td>
-            <td>Roland Mendel</td>
-            <td>Austria</td>
-        </tr>
-        <tr>
-            <td>Islan Trading</td>
-            <td>Helen Bennet</td>
-            <td>UK</td>
-        </tr>
-        <tr>
-            <td>Laughing Baucus Winecellers</td>
-            <td>Yoshi Tannamuri</td>
-            <td>Canada</td>
-        </tr>
-        <tr>
-            <td>Magazzini Alimentari</td>
-            <td>Giovanni Rovelli</td>
-            <td>Italy</td>
-        </tr>
-    </table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive registration form</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+        <div class="container">
+            <div class="title">Registration</div>
+            <form>
+                <div class="overall-details">
+                <div class="user-details1">
+                    <label for="name">Fullname</label>
+                    <input type="text" name="name" placeholder="Enter your name" class="input-box" required>
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Enter your email" class="input-box" required>
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Enter your password" class="input-box" required>
+                </div>
+                <div class="user-details2">
+                    <label for="username">Username</label>
+                    <input type="text" name="Username" placeholder="Enter your username" required>
+                    <label for="">Phone Number</label>
+                    <input type="number" name="phone number" placeholder="Enter your number" required>
+                    <label for="">Confirm Password</label>
+                    <input type="password" name="password" placeholder="confirm your password" required>
+                </div>
+                </div>
+                <div>
+                    <p class="sex">Gender</p>
+                       <div class="gender-options">
+                           <div>
+                              <input type="radio">
+                              <span>male</span>
+                           </div>
+                           <div>
+                              <input type="radio">
+                              <span>female</span>
+                          </div>
+                          <div>
+                             <input type="radio">
+                             <span>prefer not to say</span>
+                          </div>
+                       </div>
+                </div>
+                <div class="button">
+                   <input type="submit" value="Register">
+                    
+                </div>
+            </form>
+        </div>
+  </body>
 </html>
